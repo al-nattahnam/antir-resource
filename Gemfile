@@ -6,6 +6,7 @@ source "http://rubygems.org"
 gem "dm-core", ">= 1.1.0"
 gem "dm-postgres-adapter", ">= 1.1.0"
 gem "dm-types", ">= 1.1.0"
+gem "antir-machine", "0.1.1"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
