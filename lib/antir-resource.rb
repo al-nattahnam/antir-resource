@@ -4,6 +4,7 @@ require 'dm-types'
 
 #DataMapper::Logger.new(STDOUT, :debug)
 DataMapper.setup(:default, 'postgres://postgres:postgres@localhost/antir')
+DataMapper.repository(:default).adapter.resource_naming_convention = DataMapper::NamingConventions::Resource::UnderscoredAndPluralizedWithoutModule
 
 require 'antir/resources/engine'
 require 'antir/resources/engine_pool'
