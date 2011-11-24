@@ -5,6 +5,7 @@ module Antir
       storage_names[:default] = 'engines'
 
       property :id, Serial
+      property :mac, String
       property :address, URI
     
       belongs_to :engine_pool

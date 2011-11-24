@@ -11,5 +11,5 @@ require 'antir/resources/engine_pool'
 require 'antir/resources/core'
 #require 'antir/resources/vps'
 
-#DataMapper.auto_migrate!
-#DataMapper.auto_upgrade!
+DataMapper.auto_migrate!
+DataMapper.auto_upgrade!
